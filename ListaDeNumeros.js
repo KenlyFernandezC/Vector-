@@ -8,7 +8,7 @@ while (huboIntercambio) {
         if (listaNumero[i] > listaNumero[i + 1]) {
 
             let Guardado = listaNumero[i];
-
+    
             listaNumero[i] = listaNumero[i + 1];
 
             listaNumero[i + 1] = Guardado;
@@ -19,4 +19,3 @@ while (huboIntercambio) {
 
 }
 console.log(listaNumero)
-
